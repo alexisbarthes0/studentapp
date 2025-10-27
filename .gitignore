@@ -1,0 +1,68 @@
+# =========================
+# Visual Studio / VS Code
+# =========================
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# =========================
+# .NET / C# files
+# =========================
+bin/
+obj/
+Debug/
+Release/
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+
+# =========================
+# NuGet
+# =========================
+*.nupkg
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# =========================
+# ASP.NET / Web
+# =========================
+App_Data/
+*.publishsettings
+*.dbmdl
+*.bak
+*.rdl.data
+*.rdl.designer.cs
+*.sql
+
+# =========================
+# Angular / Node.js
+# =========================
+node_modules/
+dist/
+tmp/
+out-tsc/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+.angular/cache/
+
+# =========================
+# Environment files
+# =========================
+.env
+.env.*.local
+
+# =========================
+# OS generated files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
